@@ -203,12 +203,12 @@ h1{
   }
   .side-a {
     background-color: #bb0000;
-    background-image: url('heads.png');
+    background-image: url('/heads.png');
 
   }
   .side-b {
     background-color: #3e3e3e;
-    background-image: url('tails.png');
+    background-image: url('/tails.png');
   }
 
   .side-a,
