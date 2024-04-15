@@ -3,36 +3,88 @@
 
 <head>
 
-    <title>Probability Experiments</title>
+    <title>Probabilty Experiments</title>
 
     <!-- Montserrat Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    
+
     <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <h1>Probabilty Experiments</h1>
 
-    <div class="container">
-        
-        <div class="dice">
-            <div class="face front"></div>
-            <div class="face back"></div>
-            <div class="face top"></div>
-            <div class="face bottom"></div>
-            <div class="face right"></div>
-            <div class="face left"></div>
+    <div class="main-div">
+
+        <div class="container">
+
+            <div class="dice" id="dice1">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+            </div>
+
+            <button class="roll" id="roll1">
+                Roll Dice
+            </button>
+
         </div>
 
-        <button class="roll">
-            Roll Dice
-        </button>
+        <div class="container">
 
+            <div class="container2">
+            <div class="dice dice2">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+            </div>
+
+            <div class="dice dice2">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+            </div>
+            </div>
+
+            <button class="roll" id="roll2">
+                Roll Dice
+            </button>
+
+        </div>
+
+        <div class="container">
+        <div id="coin" class="coin">
+            <div class="side-a"></div>
+            <div class="side-b"></div>
+        </div>
+          <button id="flip" class="roll">Flip Coin</button>
+        </div>
+
+        <div class="container">
+            <div class="container2">
+            <div id="coin1" class="coin">
+                <div class="side-a"></div>
+                <div class="side-b"></div>
+            </div>
+            <div id="coin2" class="coin">
+                <div class="side-a"></div>
+                <div class="side-b"></div>
+            </div>
+        </div>
+              <button id="flip2" class="roll">Flip Coin</button>
+        </div>
     </div>
-
-    <!-- JS File -->
     <script src="script.js" type="text/javascript"></script>
 
 </body>
